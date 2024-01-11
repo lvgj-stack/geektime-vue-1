@@ -1,5 +1,5 @@
 <template>
-  <div>Footer</div>
+  <div>Ant Design ©2024 Created by LvGJ</div>
 </template>
 
 <script>

@@ -7,6 +7,7 @@
 <script>
 import Chart from "@/components/Chart.vue";
 import axios from "axios";
+import request from "@/utils/request";
 // import random from "lodash/random";
 export default {
   data() {
@@ -26,6 +27,11 @@ export default {
   },
   methods: {
     getChartData() {
+      request({
+        url: "/api/dashboard/chart",
+        method: "get",
+        params: { ID: 12345 },
+      });
       axios
         .get("/api/dashboard/chart", {
           params: {

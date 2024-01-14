@@ -21,6 +21,7 @@
     "resize-detector": "^0.3.0",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
+    "vue-svg-loader": "^0.12.0",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
